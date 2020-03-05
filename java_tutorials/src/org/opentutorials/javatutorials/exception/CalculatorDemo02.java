@@ -2,7 +2,6 @@ package org.opentutorials.javatutorials.exception;
 
 class Calculator02{
 	int left , right;
-	
 	public void setOprands(int left, int right) {
 		// setOprands 메소드가 실행될 때 right 값이 0 이면 인되는 예외 설정
 		//if (right == 0) {
@@ -18,7 +17,6 @@ class Calculator02{
 		if(right ==0) {
 			throw new ArithmeticException("0으로 나눌 수 없습니다.");
 		}
-		
 		//오류가 발생했습니다 :/ by zero
 		try {	//예외의 발생이 예상되는 로직,즉 예외가 발생 했을 때 실행되는 로직
 		System.out.print("계산 결과는 ");
@@ -35,7 +33,7 @@ class Calculator02{
 	}
 }
 
-public class Calculator_02 {
+public class CalculatorDemo02 {
 	public static void main(String[] args) {
 		Calculator02 c1 = new Calculator02();
 		c1.setOprands(10, 0);
