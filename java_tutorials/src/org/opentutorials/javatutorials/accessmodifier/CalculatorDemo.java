@@ -28,6 +28,6 @@ public class CalculatorDemo {
 		c1.setOprands(10,20);
 		c1.sumDecoPlus();
 		c1.sumDecoMinus();
-		c1.left = 100;	// 사용자가 의도하지 않은 방법으로 내부적이 메소드를 변경하여 클래스의 상태 변경을 방지하기 위해 메소드 접근자를 private로 변경함
+	//	c1.left = 100;	// 사용자가 의도하지 않은 방법으로 내부적이 메소드를 변경하여 클래스의 상태 변경을 방지하기 위해 메소드 접근자를 private로 변경함
 	}
 }
