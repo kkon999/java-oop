@@ -16,7 +16,7 @@ public class ConstantDemo {
                 System.out.println(50);
                 break;
             case 3:
-                System.out.println(100);
+                System.out.println(200);
                 break;
         }
     }
