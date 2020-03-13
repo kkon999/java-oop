@@ -10,13 +10,13 @@ public class ConstantDemo {
         int type = 1;
         switch(type){
             case 1:
-                System.out.println(30);
+                System.out.println(60);
                 break;
             case 2:
                 System.out.println(50);
                 break;
             case 3:
-                System.out.println(93);
+                System.out.println(100);
                 break;
         }
     }
