@@ -10,7 +10,7 @@ public class ConstantDemo {
         int type = 1;
         switch(type){
             case 1:
-                System.out.println(60);
+                System.out.println(30);
                 break;
             case 2:
                 System.out.println(50);

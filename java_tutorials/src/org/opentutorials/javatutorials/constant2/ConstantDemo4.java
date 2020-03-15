@@ -18,7 +18,7 @@ public class ConstantDemo4 {
         Fruit type = Fruit.APPLE;
         switch(type){
             case APPLE:
-                System.out.println(57+" kcal");
+                System.out.println(20+" kcal");
                 break;
             case PEACH:
                 System.out.println(34+" kcal");
