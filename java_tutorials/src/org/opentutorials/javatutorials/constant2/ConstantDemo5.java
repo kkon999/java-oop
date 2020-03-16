@@ -22,7 +22,7 @@ public class ConstantDemo5 {
         Fruit5 type = Fruit5.APPLE;
         switch(type){
             case APPLE:
-                System.out.println(60+" kcal, "+Fruit5.APPLE.getColor());
+                System.out.println(70+" kcal, "+Fruit5.APPLE.getColor());
                 break;
             case PEACH:
                 System.out.println(100+" kcal"+Fruit5.PEACH.getColor());
