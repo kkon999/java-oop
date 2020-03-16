@@ -7,7 +7,7 @@ public class ConstantDemo {
          * 2. 복숭아
          * 3. 바나나
          */
-        int type = 1;
+        int type = 2;
         switch(type){
             case 1:
                 System.out.println(30);
@@ -22,3 +22,4 @@ public class ConstantDemo {
     }
  
 }
+
