@@ -7,7 +7,7 @@ package org.opentutorials.javatutorials.constant2;
 	        int type = APPLE;
 	        switch(type){
 	            case APPLE:
-	                System.out.println(40+" kcal");
+	                System.out.println(10+" kcal");
 	                break;
 	            case PEACH:
 	                System.out.println(20+" kcal");
