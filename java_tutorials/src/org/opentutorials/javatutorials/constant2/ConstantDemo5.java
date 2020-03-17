@@ -1,7 +1,7 @@
 package org.opentutorials.javatutorials.constant2;
 
 enum Fruit5{
-    APPLE("red"), PEACH("pink"), BANANA("yellow");
+    APPLE("red"), PEACH("pink"), BANANA("blue");
     private String color;
     Fruit5(String color){
         System.out.println("Call Constructor "+this);
