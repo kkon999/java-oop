@@ -15,7 +15,14 @@ interface COMPANY{
 
 public class ConstantDemo3_3 {
 	public static void main(String[] args) {
+			
+	// FRUIT , COMPANY 의 APPLE가 비교가 되면 안된다.
+	// 이렇게 같은 데이터 타입을 사용하는 것은 지양해야한다.
+	// ConstantDemo3_4에서 데이터 타입을 변경 할 것이다.
 		
+	if(FRUIT.APPLE == COMPANY.APPLE) {
+		System.out.println("같습니다.");
+		}
 	
 	int type = FRUIT.APPLE;
 	switch(type) {
