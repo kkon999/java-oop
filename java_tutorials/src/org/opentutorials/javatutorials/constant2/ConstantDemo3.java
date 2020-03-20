@@ -1,6 +1,7 @@
 package org.opentutorials.javatutorials.constant2;
 
 public class ConstantDemo3 {
+	// 동일한 상수명을 선언해야 한다면?
     // fruit
     private final static int APPLE = 4;
     private final static int PEACH = 2;
