@@ -18,7 +18,18 @@ public static final Company ORACLE= new Company();
 */
 
 enum Fruit4{
-	APPLE , PEACH , BANANA
+	APPLE("red") , PEACH("pink") , BANANA("yellow");
+	
+	private String color;
+	public String getColor() {
+		return this.color;
+	}
+	
+	Fruit4(String color) {
+		System.out.println("CALL " + this);
+		this.color = color;
+	}
+	
 }
 
 enum Company4{
@@ -39,13 +50,13 @@ public class ConstantDemo4 {
 
 			switch (type) {
 				case APPLE:
-					System.out.println(35 + "kcal");
+					System.out.println(35 + " kcal , color " + Fruit4.APPLE.getColor());
 					break;
 				case PEACH:
-					System.out.println(57 + "kcal");
+					System.out.println(57 + " kcal , color " + Fruit4.PEACH.getColor());
 					break;
 				case BANANA:
-					System.out.println(100 + "kcal");
+					System.out.println(100 + "kcal , color " + Fruit4.BANANA.getColor());
 					break;
 		}
 	}
