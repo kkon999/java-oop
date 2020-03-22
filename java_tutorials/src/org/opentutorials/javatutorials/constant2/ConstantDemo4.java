@@ -18,7 +18,7 @@ public static final Company ORACLE= new Company();
 */
 
 enum Fruit4{
-	APPLE("red") , PEACH("pink") , BANANA("yellow");
+	APPLE("red") , PEACH("pink") , BANANA("yellooow");
 	
 	private String color;
 	public String getColor() {
