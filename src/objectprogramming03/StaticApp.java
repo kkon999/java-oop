@@ -28,7 +28,7 @@ public class StaticApp {
 	//	System.out.println(Foo.instanceVar); // 인스턴스 소속 instanceVar은 호출 불가능
 		
 		Foo.classMetod();					 // 클래스 메소드 classMetod는 클래스 Foo를 통해서 호출 가능
-		Foo.instanceMetod(); 				 // 인스턴스 메소드  instanceMetod는 클래스Foo를 통해서 호출 불가능
+		//Foo.instanceMetod(); 				 // 인스턴스 메소드  instanceMetod는 클래스Foo를 통해서 호출 불가능
 		
 		Foo f1 = new Foo();					 // 클래스 Foo를 복제하여 f1이라는 인스턴스를 생성 , 이 때 Foo클래스 안에 메소드 classMetod를 가리킴
 		Foo f2 = new Foo();					 // 클래스 Foo를 복제하여 f2이라는 인스턴스를 생성 , 이 때 Foo클래스 안에 메소드 classMetod를 가리킴
@@ -36,6 +36,14 @@ public class StaticApp {
 		
 		System.out.println(f1.classVar);	// f1 인스턴스에서 클래스 Foo의 classVar를 가리키에 참조 가능
 		System.out.println(f1.instanceVar); // 클래스 Foo에 있는 instanceVar가 복제 되어 있기에 참조 가능
+		
+		f1.classVar = "changed by f1";		// f1 인스턴스의 classVar 의 값을 변경
+		System.out.println(Foo.classVar);	// 클래스 Foo가 가리키는 값이 변경
+		System.out.println(f2.classVar);	// f2 인스턴스가 가리키는 값이 변경
+		
+		f1.instanceVar = "changed by f1";
+		System.out.println(f1.instanceVar);	// f1 인스턴스의 instanceVar를 변경 하기에 값이 변경
+		System.out.println(f2.instanceVar); // f1과 f2는 서로 다른 독립적인 변수 때문에 값이 변경 되지 않음
 	}
 
 }
