@@ -11,7 +11,7 @@ public class OthersOOP {
         
     	// 단발적인 작업일때는 메소드,변수를 클래스에 소속된것을 사용
         System.out.println(Math.PI);		// Math 클래스를 사용하여 그 안에 포함되어 있는 메소드 실행
-        System.out.println(Math.floor(1.8));
+        System.out.println(Math.floor(1.9));
         System.out.println(Math.ceil(1.8));
          
         
