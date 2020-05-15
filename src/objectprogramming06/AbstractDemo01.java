@@ -10,9 +10,10 @@ abstract class A{
         System.out.println("world");
     }
 }
-public class AbstractDemo01 {
-	 public static void main(String[] args) {
-	        A obj = new A();
-	    }
+	public class AbstractDemo01 {
+		
+		 public static void main(String[] args) {
+		        A obj = new A();
+		 }
 	
 }
