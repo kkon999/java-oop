@@ -1,19 +1,42 @@
 package objectprogramming06;
 
-abstract class A{
+
+abstract class Toy{ // 추상 메서드를 포함하므로 추상클래스로 선언
 	
-    public abstract int b();
-    //본체가 있는 메소드는 abstract 키워드를 가질 수 없다.
-    //public abstract int c(){System.out.println("Hello")}
-    //추상 클래스 내에는 추상 메소드가 아닌 메소드가 존재 할 수 있다. 
-    public void d(){
-        System.out.println("world");
+    abstract void call(); // 추상 메서드 선언(구현x)
+    void call2(){
+        System.out.println("자동차");
     }
 }
-	public class AbstractDemo01 {
-		
-		 public static void main(String[] args) {
-		        A obj = new A();
-		 }
+ 
+//Cat 추상클래스를 상속한 클래스들
+class FirstCat extends Toy{
 	
+    void call(){ //추상메서드는 서브클래스에서 반드시 재정의 되어야 함
+        System.out.println("빨간 자동차");
+    }
+}
+ 
+class SecondCat extends Toy{
+	
+    void call(){
+        System.out.println("노란 자동차");
+    }
+}
+
+
+public class AbstractDemo01 {
+	
+    public static void main(String[] args) {
+        FirstCat fc = new FirstCat();
+        SecondCat sc = new SecondCat();
+        
+        sc.call2();
+        fc.call2();
+        
+        fc.call();
+        sc.call();
+        
+        
+    }
 }
