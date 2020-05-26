@@ -23,7 +23,7 @@ class Cat implements Animal{
  
     @Override
     public void cry() {
-        System.out.println("야옹~~ 옹옹오오오오오옹~~~~~~ 야오우오우오우옹~~~~");
+        System.out.println("야옹~~ 옹옹 야오우오우오~");
     }
     @Override
     public void sleep() {
