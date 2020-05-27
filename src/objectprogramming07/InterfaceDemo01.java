@@ -27,7 +27,7 @@ class Cat implements Animal{
     }
     @Override
     public void sleep() {
-        System.out.println("집사 얼굴 위에서 잠을 잡니다.");
+        System.out.println("집사 얼굴 위에서 잠을 잡니다");
     }
      
 }
