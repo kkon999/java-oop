@@ -2,7 +2,7 @@ package objectprogramming07;
 
 
 
-class Car {
+class Car {	
     
 	public int wheel; 
     public void drive() {
@@ -22,7 +22,9 @@ public class InterfaceDemo02 {
     public static void main(String []args) {
     	RedCar cr = new RedCar();
         
-        cr.drive();
+        cr.drive(3); // 매개 변수가 있을 시 
+        
+        cr.drive();	 // 매개 변수가 없을 시
     }
 }
 
