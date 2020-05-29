@@ -1,6 +1,5 @@
 package objectprogramming07;
 
-
 interface Animal {
     public void cry();
     public void sleep();

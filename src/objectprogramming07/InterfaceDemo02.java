@@ -1,7 +1,5 @@
 package objectprogramming07;
 
-
-
 class Car {	
     
 	public int wheel; 
