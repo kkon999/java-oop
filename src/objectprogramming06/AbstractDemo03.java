@@ -10,10 +10,19 @@ class Ractangle extends Figure {
     }
 }
 
+
+
 public class AbstractDemo03 {
 		public static void main(String[] args) {
 	        Ractangle ract = new Ractangle();
 	        ract(2, 3);
 		}
+
+		private static void ract(int i, int j) {
+			
+			
+		}
+
+
 
 }
