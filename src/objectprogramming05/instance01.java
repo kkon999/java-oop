@@ -22,7 +22,7 @@ public class instance01 {
 		instance01 myCar = new instance01();
 		instance01 yourCar = new instance01();
 		
-		myCar.speed = 10;W
+		myCar.speed = 10;
 		System.out.println(myCar.speed);
 		System.out.println(yourCar.speed);
 	  
