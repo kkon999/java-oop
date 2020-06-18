@@ -29,8 +29,6 @@ public class method01 {
 	        System.out.println(calResult02);
 	        System.out.println(calResult03);
 	        System.out.println(calResult04);
-	    }
-	
-
+	    }	
 	
 }
